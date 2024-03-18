@@ -13,6 +13,4 @@ func main() {
 		fmt.Println("Error running program:", err)
 		os.Exit(1)
 	}
-	// fmt.Printf("%#x\n", Checksum(CRC16Algorithm[CRC_16_MODBUS], []byte("123456789asdfadsgqewg")))
-
 }
